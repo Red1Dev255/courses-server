@@ -18,7 +18,6 @@ public class CourseController {
     @Autowired
     private CourseService courseService;
 
-
     @GetMapping("/")
     public String verif() {
         return "hello";
